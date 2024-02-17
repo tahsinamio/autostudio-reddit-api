@@ -8,7 +8,7 @@ from TTS.engine_wrapper import process_text
 
 
 def draw_multiple_line_text(
-    image, text, font, text_color, padding, wrap=50, transparent=False
+    image, text, font, text_color, padding, wrap=50, transparent=True
 ) -> None:
     """
     Draw multiline text over given image
